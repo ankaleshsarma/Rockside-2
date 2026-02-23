@@ -1,0 +1,82 @@
+# ================================================================
+# robots.txt — Rockside Resort (https://rocksideresort.in)
+# ================================================================
+
+# ── Standard Search Engines ─────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Crawl-delay: 2
+
+# ── Google ───────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /
+
+# ── Bing / Microsoft ─────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ── AI Recommendation & Search Engines ──────────────────────────
+# OpenAI — ChatGPT browsing & training
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic — Claude AI
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI (Gemini / Bard training)
+User-agent: Google-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Apple Applebot (Siri, Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (powers many AI datasets)
+User-agent: CCBot
+Allow: /
+
+# Bytespider (ByteDance / TikTok AI)
+User-agent: Bytespider
+Allow: /
+
+# Amazon Alexa / Rufus
+User-agent: Amazonbot
+Allow: /
+
+# You.com AI search
+User-agent: YouBot
+Allow: /
+
+# Diffbot (knowledge graph & AI data extraction)
+User-agent: Diffbot
+Allow: /
+
+# ── Sitemap (both www and non-www covered; canonical is non-www) ──
+Sitemap: https://rocksideresort.in/sitemap.xml
+Sitemap: https://www.rocksideresort.in/sitemap.xml
