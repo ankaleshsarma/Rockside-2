@@ -79,4 +79,4 @@ Allow: /
 
 # ── Sitemap (both www and non-www covered; canonical is non-www) ──
 Sitemap: https://rocksideresort.in/sitemap.xml
-Sitemap: https://www.rocksideresort.in/sitemap.xml
+
